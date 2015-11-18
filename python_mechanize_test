@@ -1,0 +1,7 @@
+
+from mechanize import *
+
+br = mechanize.Browser()
+br.open("http://www.google.com")
+
+print br.title()
